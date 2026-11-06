@@ -7,6 +7,8 @@ body {
     font-size: 1em;
     background-color: #EBF5F7;
     color: #032B5E;
+    font-family: Arial, sans-serif;
+    font-style: normal;
 }
 
 header {
@@ -17,30 +19,36 @@ header {
 nav {
     background-color: #01BAB4;
     color: #032B5E;
+    text-align: center;
 }
 
 aside {
     background-color: #01BAB4;
     color: #032B5E;
+    text-align: center;
 }
 
 footer {
     background-color: #032B5E;
     color: #EBF5F7;
+    text-align: center;
 }
 
 h1 {
     font-size: 2em;
     color: #01BAB4;
+    font-family: Arial, sans-serif;
 }
 
 h2 {
     font-size: 1.5em;
     color: #032B5E;
+    font-family: Arial, sans-serif;
 }
 
 a {
     color: #032B5E;
+    text-decoration: none;
 }
     
     a:visited {
@@ -61,6 +69,7 @@ input, textarea {
     background-color: #FFFFFF;
     color: #032B5E;
     border: 1px solid #01BAB4;
+    font-family: inherit;
 }
 
     input:focus, textarea:focus {
