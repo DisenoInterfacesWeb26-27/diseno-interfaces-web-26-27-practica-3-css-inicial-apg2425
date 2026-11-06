@@ -101,3 +101,29 @@ caption {
     color: #032B5E;
     font-weight: bold;
 }
+
+nav a {
+    display: inline-block;
+    padding: 10px 18px;
+    background-color: #032B5E;
+    color: #EBF5F7;
+    border-radius: 0.3em;
+}
+
+    nav a:visited {
+        color: #EBF5F7;
+    }
+
+    nav a:hover {
+        color: #032B5E;
+        background-color: #EBF5F7;
+    }
+
+aside li {
+    margin: 5px 0;
+}
+
+aside a {
+    display: block;
+    padding: 10px;
+}
