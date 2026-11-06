@@ -5,12 +5,90 @@
 
 body {
     font-size: 1em;
+    background-color: #EBF5F7;
+    color: #032B5E;
+}
+
+header {
+    background-color: #032B5E;
+    color: #EBF5F7;
+}
+
+nav {
+    background-color: #01BAB4;
+    color: #032B5E;
+}
+
+aside {
+    background-color: #01BAB4;
+    color: #032B5E;
+}
+
+footer {
+    background-color: #032B5E;
+    color: #EBF5F7;
 }
 
 h1 {
     font-size: 2em;
+    color: #01BAB4;
 }
 
 h2 {
     font-size: 1.5em;
+    color: #032B5E;
+}
+
+a {
+    color: #032B5E;
+}
+    
+    a:visited {
+        color: #032B5E;
+    }
+
+    a:hover {
+        color: #EBF5F7;
+        background-color: #032B5E;
+    }
+
+form {
+    background-color: #EBF5F7;
+    color: #032B5E;
+}
+
+input, textarea {
+    background-color: #FFFFFF;
+    color: #032B5E;
+    border: 1px solid #01BAB4;
+}
+
+    input:focus, textarea:focus {
+        outline: 2px solid #01BAB4;
+    }
+
+table {
+    background-color: #EBF5F7;
+    color: #032B5E;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #032B5E;
+    color: #EBF5F7;
+}
+
+td {
+    background-color: #EBF5F7;
+    color: #032B5E;
+}
+
+th, td {
+    border: 1px solid #01BAB4;
+    padding: 10px;
+}
+
+caption {
+    color: #032B5E;
+    font-weight: bold;
 }
