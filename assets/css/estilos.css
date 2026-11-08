@@ -63,8 +63,13 @@ a {
     }
 
 form {
-    background-color: #EBF5F7;
+    background-color: #FFFFFF;
     color: #032B5E;
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #01BAB4;
+    border-radius: 10px;
 }
 
 input, textarea {
@@ -176,3 +181,19 @@ footer a:link,
 footer a:visited {
     color: #EBF5F7;
 }
+
+    form label {
+        display: inline-block;
+        margin: 10px 0 5px;
+        font-weight: bold;
+    }
+
+    form input:not([type="checkbox"]),
+    form textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+        border: 1px solid #01BAB4;
+        border-radius: 5px;
+    }
