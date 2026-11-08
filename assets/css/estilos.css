@@ -88,10 +88,7 @@ table {
     text-align: center;
 }
 
-th {
-    background-color: #032B5E;
-    color: #EBF5F7;
-}
+
 
 td {
     background-color: #EBF5F7;
@@ -144,4 +141,38 @@ footer img {
     position: fixed;
     bottom: 20px;
     right: 20px;
+}
+
+table tr:first-child th,
+table tr:first-child td {
+    background-color: #01BAB4;
+    color: #032B5E;
+}
+
+tr:nth-child(odd) td {
+    background-color: #EBF5F7;
+}
+
+tr:nth-child(even) td {
+    background-color: #FFFFFF;
+}
+
+nav a:link,
+nav a:visited {
+    color: #EBF5F7;
+}
+
+nav a:hover {
+    color: #032B5E;
+    background-color: #EBF5F7;
+}
+
+nav a:active {
+    color: #01BAB4;
+    background-color: #032B5E;
+}
+
+footer a:link,
+footer a:visited {
+    color: #EBF5F7;
 }
