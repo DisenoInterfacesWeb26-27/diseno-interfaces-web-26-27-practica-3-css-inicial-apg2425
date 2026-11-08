@@ -182,18 +182,18 @@ footer a:visited {
     color: #EBF5F7;
 }
 
-    form label {
-        display: inline-block;
-        margin: 10px 0 5px;
-        font-weight: bold;
-    }
+form label {
+    display: inline-block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
 
-    form input:not([type="checkbox"]),
-    form textarea {
-        width: 100%;
-        padding: 8px;
-        margin-bottom: 10px;
-        box-sizing: border-box;
-        border: 1px solid #01BAB4;
-        border-radius: 5px;
-    }
+form input:not([type="checkbox"]),
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #01BAB4;
+    border-radius: 5px;
+}
