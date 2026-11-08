@@ -20,6 +20,8 @@ nav {
     background-color: #01BAB4;
     color: #032B5E;
     text-align: center;
+    position: sticky;
+    top: 0;
 }
 
 aside {
@@ -131,4 +133,15 @@ aside li {
 aside a {
     display: block;
     padding: 10px;
+}
+
+footer img {
+    width: 25px;
+    height: 25px;
+}
+
+.fijo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
 }
